@@ -212,7 +212,7 @@ def plot_imu_standstill():
 
 # ── 6 · IMU During Walking ───────────────────────────────────────────────────
 def plot_imu_locomotion():
-    df = pd.read_csv(DATA / "trot_imu.csv")
+    df = pd.read_csv(DATA / "walking_imu.csv")
     t  = df["t_sys"] - df["t_sys"].iloc[0]
 
     fig, axes = plt.subplots(2, 3, figsize=(14, 6), sharex=True)
@@ -240,7 +240,7 @@ def plot_imu_locomotion():
 
 # ── 7 · Joint Positions During Walking ───────────────────────────────────────
 def plot_joint_locomotion():
-    df = pd.read_csv(DATA / "trot_joints.csv")
+    df = pd.read_csv(DATA / "walking_joints.csv")
     t  = df["t_sys"] - df["t_sys"].iloc[0]
 
     leg_groups = {
