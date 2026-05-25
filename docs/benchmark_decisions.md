@@ -262,7 +262,7 @@ tail fits inside one planning cycle.
 
 ## Raw Data
 
-All files in `res/`.
+All files in `results/`.
 
 | File | Contents |
 |---|---|
@@ -282,9 +282,9 @@ All files in `res/`.
 | `walking_joints.csv` | ~102 s walking — joint trajectories |
 | `walking_contact.csv` | ~102 s walking — foot forces |
 
-Scripts in `cpp_version/`: `latency_v3_fix.cpp` · `packet_loss_test.cpp` ·
+Sources in `src/`: `latency_v3_fix.cpp` · `packet_loss_test.cpp` ·
 `encoder_jitter.cpp` · `pulse_sweep.cpp` · `imu_logger.cpp`  
-Common: `common/crc32.hpp` · `common/stats.hpp`
+Shared headers in `include/`: `crc32.hpp` · `stats.hpp` · `rt_utils.hpp`
 
 ---
 
