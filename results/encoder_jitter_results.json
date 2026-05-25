@@ -1,0 +1,98 @@
+{
+  "n_samples": 150008,
+  "duration_s": 299.998235,
+  "arrival_interval_ms": {
+    "min":    1.194929,
+    "median": 2.000115,
+    "mean":   1.999895,
+    "std":    0.144522,
+    "p99":    2.358837,
+    "max":    2.852379
+  },
+  "joints": {
+    "FR_hip": {
+      "q_mean_rad":          0.808887,
+      "q_std_rad":           0.000026,
+      "dq_jitter_std_rad":   0.000026,
+      "dq_jitter_p99_rad":   0.000061,
+      "dq_jitter_max_rad":   0.000121
+    },
+    "FR_thigh": {
+      "q_mean_rad":          -0.423363,
+      "q_std_rad":           0.000020,
+      "dq_jitter_std_rad":   0.000027,
+      "dq_jitter_p99_rad":   0.000061,
+      "dq_jitter_max_rad":   0.000121
+    },
+    "FR_calf": {
+      "q_mean_rad":          -2.844068,
+      "q_std_rad":           0.000020,
+      "dq_jitter_std_rad":   0.000013,
+      "dq_jitter_p99_rad":   0.000032,
+      "dq_jitter_max_rad":   0.000063
+    },
+    "FL_hip": {
+      "q_mean_rad":          -0.860893,
+      "q_std_rad":           0.000019,
+      "dq_jitter_std_rad":   0.000026,
+      "dq_jitter_p99_rad":   0.000061,
+      "dq_jitter_max_rad":   0.000121
+    },
+    "FL_thigh": {
+      "q_mean_rad":          1.118430,
+      "q_std_rad":           0.000021,
+      "dq_jitter_std_rad":   0.000028,
+      "dq_jitter_p99_rad":   0.000061,
+      "dq_jitter_max_rad":   0.000121
+    },
+    "FL_calf": {
+      "q_mean_rad":          -2.869036,
+      "q_std_rad":           0.000034,
+      "dq_jitter_std_rad":   0.000013,
+      "dq_jitter_p99_rad":   0.000032,
+      "dq_jitter_max_rad":   0.000063
+    },
+    "RR_hip": {
+      "q_mean_rad":          0.368124,
+      "q_std_rad":           0.000017,
+      "dq_jitter_std_rad":   0.000023,
+      "dq_jitter_p99_rad":   0.000061,
+      "dq_jitter_max_rad":   0.000121
+    },
+    "RR_thigh": {
+      "q_mean_rad":          -0.438483,
+      "q_std_rad":           0.000019,
+      "dq_jitter_std_rad":   0.000025,
+      "dq_jitter_p99_rad":   0.000061,
+      "dq_jitter_max_rad":   0.000091
+    },
+    "RR_calf": {
+      "q_mean_rad":          -2.865299,
+      "q_std_rad":           0.000013,
+      "dq_jitter_std_rad":   0.000014,
+      "dq_jitter_p99_rad":   0.000032,
+      "dq_jitter_max_rad":   0.000063
+    },
+    "RL_hip": {
+      "q_mean_rad":          -0.859640,
+      "q_std_rad":           0.000017,
+      "dq_jitter_std_rad":   0.000023,
+      "dq_jitter_p99_rad":   0.000061,
+      "dq_jitter_max_rad":   0.000091
+    },
+    "RL_thigh": {
+      "q_mean_rad":          -0.176913,
+      "q_std_rad":           0.000018,
+      "dq_jitter_std_rad":   0.000024,
+      "dq_jitter_p99_rad":   0.000061,
+      "dq_jitter_max_rad":   0.000091
+    },
+    "RL_calf": {
+      "q_mean_rad":          -2.860346,
+      "q_std_rad":           0.000012,
+      "dq_jitter_std_rad":   0.000014,
+      "dq_jitter_p99_rad":   0.000031,
+      "dq_jitter_max_rad":   0.000063
+    }
+  }
+}

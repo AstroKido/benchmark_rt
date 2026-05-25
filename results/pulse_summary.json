@@ -1,0 +1,27 @@
+{
+  "2": {
+    "hit_rate": 1.0000,
+    "median_latency_ms": 6.3709,
+    "median_peak": 0.1732
+  },
+  "5": {
+    "hit_rate": 0.9500,
+    "median_latency_ms": 8.2227,
+    "median_peak": 0.1732
+  },
+  "10": {
+    "hit_rate": 0.9000,
+    "median_latency_ms": 10.5858,
+    "median_peak": 0.1732
+  },
+  "20": {
+    "hit_rate": 1.0000,
+    "median_latency_ms": 5.8714,
+    "median_peak": 0.1608
+  },
+  "40": {
+    "hit_rate": 1.0000,
+    "median_latency_ms": 11.0763,
+    "median_peak": 0.1608
+  }
+}

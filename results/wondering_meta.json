@@ -1,0 +1,14 @@
+{
+  "prefix": "wondering",
+  "recorded_at": "2026-05-24T06:33:08",
+  "total_messages": 51008,
+  "duration_s": 102.016,
+  "avg_rate_hz": 500.0,
+  "timestamp_clock": "CLOCK_MONOTONIC",
+  "joint_order": ["FR_hip", "FR_thigh", "FR_calf", "FL_hip", "FL_thigh", "FL_calf", "RR_hip", "RR_thigh", "RR_calf", "RL_hip", "RL_thigh", "RL_calf"],
+  "foot_order": ["FR", "FL", "RR", "RL"],
+  "imu_columns": ["t_sys","quat_w","quat_x","quat_y","quat_z","gyro_x[rad/s]","gyro_y[rad/s]","gyro_z[rad/s]","acc_x[m/s2]","acc_y[m/s2]","acc_z[m/s2]","rpy_r[rad]","rpy_p[rad]","rpy_y[rad]"],
+  "joint_columns_per_joint": ["q[rad]","dq[rad/s]","tau_est[Nm]"],
+  "contact_columns_per_foot": ["foot_force[raw_int16]","foot_force_est[raw_int16]"],
+  "notes": "foot_force and foot_force_est are raw int16 from the Go2 MCU. Quaternion convention: [w, x, y, z]. t_sys is CLOCK_MONOTONIC (monotonic, not wall clock) — use for dt, not absolute time."
+}

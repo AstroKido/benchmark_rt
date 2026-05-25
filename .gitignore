@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+
+# Compiled binaries (listed explicitly to avoid gitignoring results/)
+src/*.o
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Unrelated local files
+python_version/
+cpp_version/
+*.pdf
+*.docx
+rt_dev_log.txt

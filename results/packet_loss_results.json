@@ -1,0 +1,27 @@
+{
+  "duration_s":             60.001438,
+  "cmd_hz":                 200,
+  "lowstate_hz_nominal":    500,
+  "n_received":             29995,
+  "n_expected":             30001,
+  "interval_ms": {
+    "min":    0.000661,
+    "median": 1.997407,
+    "mean":   2.000448,
+    "std":    0.237481,
+    "p99":    2.546808,
+    "max":    5.740053
+  },
+  "wall_clock_drops": {
+    "threshold_ms":  3.000000,
+    "n_events":      22,
+    "drop_rate_pct": 0.073346,
+    "worst_gap_ms":  5.740053
+  },
+  "tick_drops": {
+    "n_events":              0,
+    "estimated_missing":      0,
+    "estimated_loss_rate_pct":0.000000
+  },
+  "verdict": "ACCEPTABLE (<0.1%)"
+}
